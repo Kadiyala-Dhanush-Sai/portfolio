@@ -1,6 +1,8 @@
 import React from "react";
 import './styles.css';
 import './utility.css';
+import profilePhoto from './assets/profile-photo.jpg';
+<img src={profilePhoto} alt="profile" />
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 function HomePage() {
@@ -60,7 +62,7 @@ function HomePage() {
 
 
                         <div className="right-box col-12 col-md-6 text-center">
-                            <img src="profile photo.jpg" alt="Profile" className="right-box-image" />
+                            <img src={profilePhoto} alt="profile" className="right-box-image" />
                         </div>
 
                     </div>
