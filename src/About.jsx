@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import profilePhoto from './assets/profile photo.jpg';
 function About() {
     return (
         <>
@@ -31,7 +32,7 @@ function About() {
                 <div className="about-container body-section">
                     <div className="row align-items-center">
                         <div className="left-box-about col-12 col-md-5 ">
-                            <img src="profile photo.jpg" alt="Profile" className="right-box-image-1" />
+                            <img src={profilePhoto} alt="profile" className="right-box-image-1" />
                         </div>
                         <div className="right-box-about col-12 col-md-7 ">
                             <h1 style={{ color: "white", fontFamily: "Inter" }}>I'm <span
